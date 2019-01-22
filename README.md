@@ -1,2 +1,2 @@
 # Papers
-note the memo of papers which I read
+note of papers which I read
