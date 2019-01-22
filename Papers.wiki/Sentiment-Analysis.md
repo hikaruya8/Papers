@@ -1,4 +1,1 @@
-- 著者のランキングを基に引用の極性を分類しており(p-index)，ベースラインのh-indexよりスコアを上げている．
-- ちなみにpolarity ID，affiliation ID, author ID の組み合わせでスコアをそれぞれ出している
-
-- H-indexではなく(his/her index)ではなく，P-indexを使用している𝑝_𝑖𝑛𝑑𝑒𝑥(𝑓) = h_𝑖𝑛𝑑𝑒𝑥(𝑓) ∙ 𝑝^α ∙ 𝑛^β
+- [Improve_Sentiment_Analysis_of_Citations_with_Author_Modelling](https://github.com/hikaruya8/Papers/wiki/Improve_Sentiment_Analysis_of_Citations_with_Author_Modelling)
