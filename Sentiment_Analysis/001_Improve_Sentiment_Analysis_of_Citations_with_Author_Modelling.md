@@ -14,4 +14,5 @@ h指数の計算例　(カッコ内は被引用数)
 論文A(25), 論文B(8), 論文C(5), 論文D(3), 論文E(3) →h指数=3
 https://ja.wikipedia.org/wiki/H%E6%8C%87%E6%95%B0
 
-
+他に有名所ではg-index(Egghe, 2006)がある
+https://en.wikipedia.org/wiki/G-index
