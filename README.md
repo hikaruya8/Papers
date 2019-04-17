@@ -1,2 +1,2 @@
 # Papers
-note of papers which I read
+Papers which I read, mainly about NLP.
