@@ -22,3 +22,4 @@ DeepMoji(Felbo et al., 2017)
 - BiLSTM
 - linear transformation layer
 - max-pooling layer
+![figure005](../image/005.png)
