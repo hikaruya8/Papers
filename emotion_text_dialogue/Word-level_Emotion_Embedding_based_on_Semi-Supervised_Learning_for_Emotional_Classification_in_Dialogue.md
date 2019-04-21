@@ -7,6 +7,10 @@
 word levelでemotionをラベル付けし、そのラベル付けされた発話はそのemotionと仮定
 その後、LSTMに各発話のemotionを入力として入れている。
 
+![figure1](../image/006.png)
+![figure2](../image/007.png)
+![figure3](../image/008.png)
+
 ### 問題点
 実験結果が書いていない(accuracyの値)
 
