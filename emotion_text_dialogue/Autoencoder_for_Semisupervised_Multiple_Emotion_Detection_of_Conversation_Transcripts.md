@@ -10,12 +10,17 @@
 
 ### メソッド
 - word2vec 96次元
+
 - emotion features
+
 感情ベクトルを与え、強度によってベクトルの値を変えた。例:喜び[1,0,0,0] エクスタシー[1.5,0,0,0], 悲しみ[-1,0,0,0]
 - Text2vec 300dim
+
 発話のため文脈情報を捉える必要がある
 whole conversation(100dim) + Previous utterance(100dim) + Current utterance(100dim) 
+
 - 半教師つきオートエンコーダー
+
 いわゆるよくあるオートエンコーダ
 
 ![figure6](../image/004.png)
