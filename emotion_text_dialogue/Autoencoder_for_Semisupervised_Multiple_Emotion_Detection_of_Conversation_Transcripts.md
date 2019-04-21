@@ -17,6 +17,7 @@
 whole conversation(100dim) + Previous utterance(100dim) + Current utterance(100dim) 
 - 半教師つきオートエンコーダー
 いわゆるよくあるオートエンコーダ
+
 ![figure6](../image/004.png)
 
 ### 評価方法
