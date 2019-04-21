@@ -16,11 +16,16 @@
 発話のため文脈情報を捉える必要がある
 whole conversation(100dim) + Previous utterance(100dim) + Current utterance(100dim) 
 - 半教師つきオートエンコーダー
+いわゆるよくあるオートエンコーダ
+![figure6](../image/004.png)
 
+### 評価方法
+- hamming score
+- F1(precisionもrecallも大事なので)
 
 ### 新規性
 本来感情というものは一つで表せられるものではないが、タスクの単純化のため先行研究では１つの感情を検出するものが多い。
-この論文では２つ以上の感情をアノテートされたデータセットを使用し、検出した。
+この論文では２つ以上の感情をアノテートされたデータセット(EMTC)を使用し、検出した。
 
 ### 論文誌
 IEEE TRANSACTIONS ON AFFECTIVE COMPUTING
