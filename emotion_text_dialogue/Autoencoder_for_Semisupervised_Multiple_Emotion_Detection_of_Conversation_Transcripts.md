@@ -9,19 +9,26 @@
 - 感情の定義はPlutchikのものを使用。詳細(https://swingroot.com/plutchik-emotion/)
 
 ### メソッド
-- word2vec 96次元
+#### Emotional words to vectors
+以下の２つをconcatした
+- corpusを使ってword2vecにより96次元のベクトルにした
 
-- emotion features
+- Plutchik’s theoriesを使用したemotion featuresを使って感情の強度でベクトルを表現した。
 
-感情ベクトルを与え、強度によってベクトルの値を変えた。例:喜び[1,0,0,0] エクスタシー[1.5,0,0,0], 悲しみ[-1,0,0,0]
-- Text2vec 300dim
+例:喜び[1,0,0,0] エクスタシー[1.5,0,0,0], 悲しみ[-1,0,0,0]
 
-発話のため文脈情報を捉える必要がある
+
+#### Text2vec 300dim
+発話のため文脈情報を捉える必要がある。よって上記のEmotional words to vectorsでできたベクトル表現の合計を１発話の感情ベクトルとみなす。
+
+#### 
 whole conversation(100dim) + Previous utterance(100dim) + Current utterance(100dim) 
 
-- 半教師つきオートエンコーダー
+#### 半教師つきオートエンコーダー
+いわゆるよくあるオートエンコーダ。
 
-いわゆるよくあるオートエンコーダ
+self-annotatedした10000発話を学習することでエンコーダーを構築
+その後、2,000,000発話のunlabeled dataをトレイン
 
 ![figure6](../image/004.png)
 
